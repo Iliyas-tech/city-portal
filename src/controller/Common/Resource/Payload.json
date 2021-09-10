@@ -1,0 +1,49 @@
+{
+	"context": "Trucking",
+	"type": "Booking",
+	"bookingId": "78500",
+	"source_booked": "MobileApp",
+	"status": "Confirmed",
+	"customer": {
+		"id": 10349,
+		"fullName": "John Doe",
+		"mobile":  "+91 9980798456",
+		"email":"john_doe@gmail.com"
+	},
+	"source": {
+		"name": "AMC Mercado",
+		"address": {
+			"address": "1858, 2821, Mission College Road",
+			"location": "Koramangala",
+			"city": "Bangalore",
+			"state": "Karnataka",
+			"postalCode": "560034",
+			"country": "India"
+		},
+		"latitude":"12.933664",
+		"longitude":"77.616179"
+	},
+	"destination": {
+		"name": "Jayem Logistics",
+		"address": {
+			"address": "#7, Road Number 10, KIADB",
+			"location": "Whitefileld",
+			"city": "Bangalore",
+			"state": "Karnataka",
+			"postalCode": "560066",
+			"country": "India",
+			"coordinates": {
+				"latitude":"12.984955",
+				"longitude":"77.727345"
+			}
+		}
+	},
+	"vendor": {
+		"id": 18567,
+		"fullName": "Ram",
+		"vehicleNumber": "KA01AB9876",
+		"vehicleModel": "Tata Ace"
+	},
+	"bookingTime": "2020-08-31T11:15:22-06:00",
+	"pickupTime": "2020-08-31T15:00:00-00:00"
+}
